@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+<body>
+    <script src="https://res.zvo.cn/translate/translate.js"></script>
+    <script src="https://res.zvo.cn/msg/msg.js"></script>
+    <div class="box">
+        <div class="content">
+            <div>不必说碧绿的菜畦，光滑的石井栏，高大的皂荚树，紫红的桑椹;也不必说鸣蝉在树叶里长吟</div>
+            <div>用手指按住它的脊梁，便会拍的一声，从后窍</div>
+            <div>园林是由建筑、山水、花木等组合而成的一个综合艺术</div>
+            <div>，木莲有莲房一般的果实，何首乌有拥肿的根。有人说，何首乌根是有象人形的，吃了便</div>
+            <div>。如果我们能初步理解这个道理，就不至于离自然太远，</div>
+            <div>叶圣陶是20世纪中国一位杰出的作家、教育家和出版家，又是中国现代儿童文学创作的先行者。</div>
+            <div>路上只我一个人，背着手踱着</div>
+            <div>曲曲折折的荷塘上面，弥望旳是田田的叶子。</div>
+            <div>月光如流水一般，静静地泻在这一片叶子和花上</div>
+        </div>
+        <div class="translate">
+            
+        </div>
+    </div>
+
+    <div class="hide"></div>
+    <a class="ignore" href="javascript:translate.changeLanguage('english');">English</a>
+
+    <div class="menu">
+        <button type="button" class="btn btn-secondary appearance clearfix" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="复制">
+            Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary appearance clearfix" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="粘贴">
+            Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary appearance clearfix" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="搜索">
+            Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary appearance clearfix" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="翻译">
+            Tooltip on bottom
+        </button>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="type" src="./js/index.js"></script>
+    
+    <script>
+        //translate.ignore.tag.push('img'); //翻译时追加上自己想指定忽略的tag标签，凡是在这里面的，都不进行翻译。
+        //translate.ignore.class.push('test');	//翻译时指定忽略的class name，凡是class name 在这里面的，都不进行翻译。如果不设置默认只有 ignore 这一个
+        //var documents = [];
+        //documents.push(document.getElementById('ajax'));
+        //documents.push(document.getElementById('test2'));
+        //documents.push(document.getElementById('test3'));
+        //translate.setDocuments(documents); //指定要翻译的元素的集合,可传入一个或多个元素。如果不设置，默认翻译整个网页
+        //translate.setAutoDiscriminateLocalLanguage();	//设置用户第一次用时，自动识别其所在国家的语种进行切换
+        // translate.language.setLocal('chinese_simplified'); //设置本地语种（当前网页的语种）。如果不设置，默认就是 'chinese_simplified' 简体中文。 可填写如 'english'、'chinese_simplified' 等，具体参见文档下方关于此的说明
+        // translate.setUseVersion2(); //设置使用v2.x 版本
+        // translate.service.use('client.edge');
+        // translate.language.setUrlParamControl(); //url参数后可以加get方式传递 language 参数的方式控制当前网页以什么语种显示
+        // translate.listener.start();	//开启html页面变化的监控，对变化部分会进行自动翻译。注意，这里变化区域，是指使用 translate.setDocuments(...) 设置的区域。如果未设置，那么为监控整个网页的变化
+        // translate.execute(); //执行翻译初始化操作，显示出select语言选择
+        translate.selectLanguageTag.show = false; //不出现的select的选择语言
+    </script>
+</body>
+
+</html>
