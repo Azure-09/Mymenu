@@ -5,7 +5,7 @@ const tooltipList = [...tooltipTriggerList].map(
   (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
 );
 
-import { icons } from "./icons.js";
+// import { icons } from "./icons.js";
 
 const content = document.querySelector('.content');
 const menu = document.querySelector('.menu');
